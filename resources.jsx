@@ -159,7 +159,7 @@ function ResourcesApp() {
           {/* hero */}
           <header className="res-hero">
             <div className="eyebrow" style={{marginBottom: 14}}>Resources</div>
-            <h1>Articles & how-to guides<br/>for shipping on Atlas.</h1>
+            <h1>Articles & how-to guides<br/>for shipping on Stratus.</h1>
             <p className="body">
               Step-by-step guides, concept explainers, and reference docs maintained
               by the platform team and engineering guilds.
@@ -336,7 +336,7 @@ function ResourcesApp() {
 
       <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)}/>
 
-      <TweaksPanel title="Atlas Tweaks">
+      <TweaksPanel title="Stratus Tweaks">
         <TweakSection label="Palette">
           <TweakColor
             label="Brand"

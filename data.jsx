@@ -104,19 +104,19 @@ const FEATURED = [
   { id: "private",  lbl: "Private Cloud",      sub: "Helix internal PaaS",         tile: "var(--tile-2)",  span: 4, ico: "cube",  href: "catalog.html?tab=private" },
   { id: "public",   lbl: "Public Cloud",       sub: "AWS · GCP · Azure",           tile: "var(--tile-3)",  span: 4, ico: "globe", href: "catalog.html?tab=public"  },
   { id: "api",      lbl: "API Gateway",        sub: "Edge & policy",               tile: "var(--surface)", span: 2, ico: "link" },
-  { id: "ccli",     lbl: "Cloud CLI",          sub: "atlas ctl",                   tile: "var(--surface)", span: 2, ico: "term" },
+  { id: "ccli",     lbl: "Cloud CLI",          sub: "stratus ctl",                   tile: "var(--surface)", span: 2, ico: "term" },
   { id: "iac",      lbl: "Infrastructure as Code", sub: "Terraform & Crossplane",  tile: "var(--surface)", span: 2, ico: "code" },
   { id: "sandbox",  lbl: "AWS Sandbox",        sub: "Ephemeral accounts",          tile: "var(--surface)", span: 2, ico: "build" },
   { id: "cat-pub",  lbl: "Public Catalog",     sub: "Browse services",             tile: "var(--tile-4)",  span: 3, ico: "grid",  href: "catalog.html?tab=public"  },
   { id: "cat-priv", lbl: "Private Catalog",    sub: "Internal services",           tile: "var(--tile-1)",  span: 3, ico: "stack", href: "catalog.html?tab=private" },
-  { id: "onboard",  lbl: "Start onboarding →", sub: "New to Atlas? Begin here.",   span: 2, ico: "bolt", cta: true },
+  { id: "onboard",  lbl: "Start onboarding →", sub: "New to Stratus? Begin here.",   span: 2, ico: "bolt", cta: true },
 ];
 
 const SUPPORT_LINKS = [
   { group: "GENERAL", items: [
     { name: "Service Desk", to: "#" },
     { name: "Support Directory", to: "#" },
-    { name: "TechCare", to: "#" },
+    { name: "IT Help Desk", to: "#" },
     { name: "Status Page", to: "#" },
   ]},
   { group: "DOCS", items: [
@@ -126,17 +126,17 @@ const SUPPORT_LINKS = [
   ]},
 ];
 
-const SLACK_CHANNELS = ["#atlas-infra", "#cloud-engineering", "#techcare-chat", "#helix-support", "#release-pilot"];
+const SLACK_CHANNELS = ["#stratus-infra", "#cloud-engineering", "#it-help", "#helix-support", "#release-pilot"];
 
 const GETTING_STARTED = [
   { group: "GET STARTED", items: [
     { name: "Quickstart", to: "#" },
     { name: "Sample Applications", to: "#" },
     { name: "How-To Articles", to: "#" },
-    { name: "Atlas for Developers", to: "#" },
+    { name: "Stratus for Developers", to: "#" },
   ]},
   { group: "LEARN MORE", items: [
-    { name: "Atlas University", to: "#" },
+    { name: "Stratus University", to: "#" },
     { name: "Training Videos", to: "#" },
     { name: "Release Calendar", to: "#" },
     { name: "Release Notes", to: "#" },

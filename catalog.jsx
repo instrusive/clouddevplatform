@@ -386,7 +386,7 @@ function CatalogApp() {
           <header className="cat-hero">
             <h1>Cloud Catalog</h1>
             <p className="body">
-              Browse every managed service available on Atlas. Order, configure and launch
+              Browse every managed service available on Stratus. Order, configure and launch
               in minutes — guardrails, IAM and observability come built in.
             </p>
 
@@ -542,7 +542,7 @@ function CatalogApp() {
       <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)}/>
       <OrderDrawer product={orderProduct} onClose={() => setOrderProduct(null)}/>
 
-      <TweaksPanel title="Atlas Tweaks">
+      <TweaksPanel title="Stratus Tweaks">
         <TweakSection label="Palette">
           <TweakColor
             label="Brand"

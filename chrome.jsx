@@ -36,7 +36,7 @@ function TopNav({ activeId, onOpenSearch, mode = "scroll", currentPage }) {
       <div className="shell topnav-inner">
         <a href="index.html" className="logo">
           <div className="logo-mark"><LogoMark/></div>
-          atlas
+          stratus
         </a>
 
         <nav className="nav-links" aria-label="Primary">
@@ -54,7 +54,7 @@ function TopNav({ activeId, onOpenSearch, mode = "scroll", currentPage }) {
         <div className="nav-right">
           <button className="search-trigger" onClick={onOpenSearch} aria-label="Open search">
             <IconSearch size={16}/>
-            <span>Search Atlas…</span>
+            <span>Search Stratus…</span>
             <kbd>⌘K</kbd>
           </button>
           <button className="btn btn-ghost" style={{padding: "8px 12px"}} aria-label="Notifications">

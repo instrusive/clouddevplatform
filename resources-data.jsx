@@ -35,7 +35,7 @@ const RES_LEVELS = [
 const RES_ARTICLES = [
   /* Featured */
   { id: "r01", type: "guide", topic: "getting-started", level: "beginner",
-    title: "Your first 30 minutes on Atlas",
+    title: "Your first 30 minutes on Stratus",
     blurb: "A guided walk through workspace setup, CLI install, and pushing a sample service end-to-end.",
     author: "Platform Team", updated: "May 18, 2026", readTime: "8 min", featured: true },
 
@@ -46,12 +46,12 @@ const RES_ARTICLES = [
 
   { id: "r03", type: "concept", topic: "security", level: "beginner",
     title: "Secrets, tokens, and the Vault model — explained",
-    blurb: "How Atlas issues short-lived credentials, who can read what, and why long-lived tokens are going away.",
+    blurb: "How Stratus issues short-lived credentials, who can read what, and why long-lived tokens are going away.",
     author: "Security Engineering", updated: "May 09, 2026", readTime: "6 min", featured: true },
 
   /* Getting started */
   { id: "r10", type: "guide", topic: "getting-started", level: "beginner",
-    title: "Install and configure the Atlas CLI",
+    title: "Install and configure the Stratus CLI",
     blurb: "Install the CLI on macOS, Linux and Windows. Authenticate, set context, and verify your install.",
     author: "DX Team", updated: "May 17, 2026", readTime: "4 min" },
 

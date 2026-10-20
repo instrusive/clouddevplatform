@@ -28,7 +28,7 @@ function Hero({ variant = "search", onOpenSearch }) {
 
         <div className="hero-tagline">
           <span className="dot"></span>
-          <span className="eyebrow">Atlas Cloud Platform · Internal</span>
+          <span className="eyebrow">Stratus Cloud Platform · Internal</span>
           <span className="tag-mono" style={{color: "var(--ink-3)", marginLeft: 8}}>v2026.05</span>
         </div>
 
@@ -38,7 +38,7 @@ function Hero({ variant = "search", onOpenSearch }) {
             Real scale.
           </h1>
           <p className="body" style={{maxWidth: 360, fontSize: 16, paddingBottom: 12}}>
-            Atlas is an integrated developer platform for shipping software across
+            Stratus is an integrated developer platform for shipping software across
             private and public clouds. One catalog, one CLI, one place to learn.
           </p>
         </div>
@@ -380,7 +380,7 @@ function ResourcesTriptych() {
           <div className="tri-panel tinted-2">
             <div>
               <div className="eyebrow" style={{marginBottom: 8}}>Getting Started</div>
-              <h3 className="title">New to Atlas?</h3>
+              <h3 className="title">New to Stratus?</h3>
             </div>
             {GETTING_STARTED.map((g, gi) => (
               <div key={gi}>
@@ -410,7 +410,7 @@ function ResourcesTriptych() {
               </div>
               <div style={{flex: 1}}>
                 <div style={{fontSize: 14, fontWeight: 600}}>Watch the 4-minute tour</div>
-                <div style={{fontSize: 12, color: "var(--ink-2)"}}>Atlas in motion</div>
+                <div style={{fontSize: 12, color: "var(--ink-2)"}}>Stratus in motion</div>
               </div>
               <IconArrowR size={16}/>
             </div>
@@ -489,7 +489,7 @@ function Footer() {
                   <circle cx="3" cy="15" r="1.7"/>
                 </svg>
               </div>
-              atlas
+              stratus
             </div>
             <p className="small" style={{maxWidth: 360}}>
               An internal developer platform for shipping software across private and public clouds.
@@ -507,7 +507,7 @@ function Footer() {
             <h4>Resources</h4>
             <a href="#">Documentation</a>
             <a href="#">Release Notes</a>
-            <a href="#">Atlas University</a>
+            <a href="#">Stratus University</a>
             <a href="#">Status</a>
           </div>
           <div className="footer-col">
@@ -519,7 +519,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <div>© 2026 Atlas Cloud Platform · Internal use only</div>
+          <div>© 2026 Stratus Cloud Platform · Internal use only</div>
           <div style={{display: "flex", gap: 18}}>
             <a href="#">Code of conduct</a>
             <a href="#">Security</a>

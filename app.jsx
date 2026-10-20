@@ -1,5 +1,5 @@
 /* ============================================
-   Atlas Cloud Platform — Homepage App
+   Stratus Cloud Platform — Homepage App
    (TopNav/SearchOverlay/useScrollSpy come from chrome.jsx)
    ============================================ */
 
@@ -11,7 +11,7 @@ const PALETTES = [
   { key: "indigo", hex: "#5A3CE0" },
 ];
 
-const ATLAS_DEFAULTS = /*EDITMODE-BEGIN*/{
+const STRATUS_DEFAULTS = /*EDITMODE-BEGIN*/{
   "palette": "cobalt",
   "density": "comfortable",
   "heroVariant": "search",
@@ -21,7 +21,7 @@ const ATLAS_DEFAULTS = /*EDITMODE-BEGIN*/{
 }/*EDITMODE-END*/;
 
 function App() {
-  const [t, setTweak] = useTweaks(ATLAS_DEFAULTS);
+  const [t, setTweak] = useTweaks(STRATUS_DEFAULTS);
   const [searchOpen, setSearchOpen] = useState(false);
   const activeId = useScrollSpy(["welcome", "resources", "announcements", "programs"]);
 
@@ -57,7 +57,7 @@ function App() {
 
       <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)}/>
 
-      <TweaksPanel title="Atlas Tweaks">
+      <TweaksPanel title="Stratus Tweaks">
         <TweakSection label="Palette">
           <TweakColor
             label="Brand"
